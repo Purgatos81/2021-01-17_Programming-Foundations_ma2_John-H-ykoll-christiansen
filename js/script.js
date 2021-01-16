@@ -15,14 +15,11 @@ var pets = [
 		age: 4.0,
 	},
 ];
-
-if (pets.age < 4) {
-
-}
-
-for (let oldPet of pets) {
-	console.log(oldPet);
-}
+for (let i of pets) { 
+	if (i.age >= 4) { 
+	console.log(i);
+	 } 
+	}
 
 //Question 2
 function trueOrFalse(boleanPlease) {
@@ -32,7 +29,7 @@ function trueOrFalse(boleanPlease) {
 	console.log("Please pass a boolean value in");
 	}
 }
-trueOrFalse(false);
+trueOrFalse(true);
 
 //Question 3
 
