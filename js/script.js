@@ -33,6 +33,13 @@ function trueOrFalse(boleanPlease) {
 	}
 }
 trueOrFalse(false);
+
 //Question 3
 
+var heading = document.querySelector("h2");
+var button = document.querySelector("button");
 
+button.onclick = function() {
+	heading.innerHTML = "Updated subheading";
+	heading.style.color = "blue";
+}
