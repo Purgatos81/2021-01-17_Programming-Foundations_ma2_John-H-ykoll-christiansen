@@ -18,6 +18,7 @@ var pets = [
 
 for (var i = 0; i < pets.length; i++) {
     var petAge = pets[i];
-    console.log(petAge);
 }
-
+if (pets[age] >= 4) {
+	console.log(petAge);
+}
