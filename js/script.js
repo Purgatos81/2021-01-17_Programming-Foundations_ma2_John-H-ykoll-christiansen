@@ -16,9 +16,23 @@ var pets = [
 	},
 ];
 
-for (var i = 0; i < pets.length; i++) {
-    var petAge = pets[i];
+if (pets.age < 4) {
+
 }
-if (pets[age] >= 4) {
-	console.log(petAge);
+
+for (let oldPet of pets) {
+	console.log(oldPet);
 }
+
+//Question 2
+function trueOrFalse(boleanPlease) {
+	if (boleanPlease === true || boleanPlease === false) {
+		console.log(boleanPlease); 
+	} else {
+	console.log("Please pass a boolean value in");
+	}
+}
+trueOrFalse(false);
+//Question 3
+
+
